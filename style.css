@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Montserrat:wght@300&family=Space+Mono:wght@400;700&display=swap');
+
+
+.header-font{
+	position: absolute;
+	width: 133px;
+	height: 25px;
+	left: 77px;
+	top: 40px;
+
+	font-family: 'Inconsolata', monospace;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 25px;
+	letter-spacing: -0.08em;
+	text-transform: uppercase;
+}
+
+.image{
+	position: absolute;
+	width:400.22px;
+	height:347.43px;
+	left: 77px;
+	right: 10px;
+	top: 265px;
+	bottom: 6px;
+
+
+}
+
+.main-text{
+
+	position: absolute;
+	width: 586px;
+	height: 190px;
+	left: 1196px;
+	top: 265px;
+
+	font-family: 'Space Mono', monospace;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 95px;
+	letter-spacing: -0.035em;
+
+	/* Gray 1 */
+
+	color: #333333;
+}
+
+.second-text{
+
+position: absolute;
+width: 381px;
+height: 108px;
+left: 1201px;
+top: 519px;
+
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+}
+
+.Button{
+
+position: absolute;
+width: 216px;
+height: 68px;
+left: 1204px;
+top: 677px;
+
+/* Gray 1 */
+
+background: #333333;
+
+font-family: 'Space Mono', monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.footer-text{
+
+position: absolute;
+width: 287px;
+height: 17px;
+left: 943px;
+top: 1103px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
+
+}
+
+/*
+
+========Responsive CSS==============
+
+*/
+
+
+@media(max-width: 995px) {
+  img{
+	width:93%;
+	position: absolute;
+left: -17.27%;
+right: 11.78%;
+top: -26.51%;
+bottom: 63.44%;
+  }
+}
+
+
+ @media(max-width: 995px) {
+
+ .header-font{	
+
+width: 133px;
+height: 25px;
+left: 24px;
+top: 20px;
+
+}
+}
+
+ @media(max-width: 995px) {
+
+ .main-text{	
+
+width: 350px;
+height: 142px;
+left: 24px;
+top: 446px;
+
+font-weight: 700;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+
+}
+}
+
+
+ @media(max-width: 995px) {
+
+ .second-text{	
+
+
+width: 328px;
+height: 81px;
+left: 23px;
+top: 637px;
+
+
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.035em;
+
+}
+}
+
+@media(max-width: 995px) {
+
+ .Button{	
+
+width: 216px;
+height: 68px;
+left: 24px;
+top: 758px;
+
+
+}
+}
+
+
+
+@media(max-width: 995px) {
+
+ .footer-text{	
+
+width: 287px;
+height: 17px;
+left: 46px;
+top: 908px;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+
+}
