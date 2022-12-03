@@ -1,4 +1,4 @@
-A 404 Responsive Web Page. 
+A 404 Error Responsive Web Page. 
 
 Desigend using HTML/CSS and Media Query to make the web page responsive.
 
